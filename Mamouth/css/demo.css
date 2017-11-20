@@ -28,7 +28,10 @@ video {
     object-fit: cover;
     filter: grayscale(1);
 }
-
+.texte 
+{
+ color: #ff764b;
+}
 .overlay {
   width: 400px;
   height: 400px;
@@ -75,7 +78,7 @@ display: inline-block;
 }
 
 .btt-a a {
-margin : 10px;
+margin : -30px;
 }
 .btt-a a:hover{
 color:#ff764b;
