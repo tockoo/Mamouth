@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("fonts/Avenir.ttc");
+  }
 *,
 *::after,
 *::before {
@@ -67,9 +71,7 @@ video {
     z-index: 0;
     margin: 0;
 }
-@media only screen and (min-width : 1224px){
-/* Styles pour cette Media Queries */
-}
+
 .btt-a {
 
 margin-top: 32%;
@@ -99,21 +101,15 @@ margin : 0,5em;
 }
 
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles pour cette Media Queries */
-.btt-a {
 
-margin-top: 1500px;
-margin-left: 22%;
-}
 	
 
 }
 
 /* about us */
-.IT h2{
+h2{
     font-weight: 300;
-    color: #ff764b;
+    color: red;
     font-size: 1.4em;
     border-bottom: 1px solid #444;
     padding-bottom: 5px;
@@ -424,10 +420,10 @@ small {
 }
 
 
-/* RESPONSIVE */
+/* RESPONSIVE 
 
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 70em) {
 	.view {
 		overflow: auto;
 		height: auto;
@@ -520,5 +516,201 @@ small {
 	}
 	.demo-3 .codrops-header__deco {
 		font-size: 0.85em;
+	}
+	.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+*/
+
+
+/* Responsive page accueil */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.btt-a a {
+	top:100px;
+	margin-left : -50px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+.btt-a a {
+	top:100px;
+	margin-left : -50px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.btt-a a {
+	top:100px;
+	margin-left : -50px;
+	}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+.btt-a a {
+	top:100px;
+	margin-left : -50px;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+.btt-a a {
+	top:100px;
+	margin-left : -50px;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+.btt-a a {
+	margin-left : -30px;
+	top:1px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1680px) {
+.btt-a a {
+	top:-130px;
+	margin: -1px;
+	}
+#your-name {
+	margin: 10px;
+}	
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
+	}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.btt-a a {
+	top:200px;
+	margin-left : -70px;
 	}
 }
