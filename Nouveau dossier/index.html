@@ -16,42 +16,21 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <style>
-      .container {
-  
-        position: relative;
-  
-      }
-      .topright {
-        position: absolute;
-        top: 5px;
-        right: 16px;
-        font-size: 18px;
-      }
-      .pright {
-        position: absolute;
-        right: 16px;
-        font-size: 18px;
-  
-      } 
-      footer{
-        position:absolute;
-        bottom:0;
-        width:100%;
-        padding-top: 20px;
-        height:100px;
-      } 
-    </style>
     <script>
     </script>
   </head>  
   <body>
+    <!-- onglets -->
     <ul>
+      <!-- ONGLET CONTACT -->
       <li>
+        <!-- TITRE DE L'ONGLET CONTACT -->
         <div class="section-title">
           <h2><strong>CONTACT</strong></h2>
         </div>
+        <!-- CONTENU DE L'ONGLET CONTACT -->
         <div class="section-content">
+          <!-- FORMULAIRE DE CONTACT -->
           <form style="width: 100%">
             <p class="centre">
               Chère Mamouth,
@@ -89,24 +68,31 @@
           </form>
         </div>
       </li>
+      <!-- ONGLET MAMOUTH-->
       <li>
+        <!-- TITRE DE L'ONGLET MAMOUTH-->
         <div class="section-title">
           <h2 class="tabsnav__title">MAMOUTH</h2>
         </div>
-        <button class="mbtn mbtn--back" style="opacity: 1; transform: scale(1);">
-          <svg class="icon icon--caret" onclick="machf()">
-            <use xlink:href="#icon-caret">
-              <svg id="icon-caret" viewBox="0 0 24 24">
-                <title>
-                  caret
-                </title>
-                <polygon points="15.7,16.6 11.1,12 15.7,7.4 14.3,6 8.3,12 14.3,18"></polygon>
-              </svg>
-            </use>
-          </svg>
-        </button>
-      <div class="section-content" style="">
+        <!-- CONTENU DE L'ONGLET MAMOUTH-->
+        <div class="section-content" style="">
+          <!-- BOUTON RETOUR (a sortir du contenu pour utiliser le meme sur toutes les pages-->
+          <button class="mbtn mbtn--back" style="opacity: 1; transform: scale(1);">
+            <svg class="icon icon--caret" onclick="machf()">
+              <use xlink:href="#icon-caret">
+                <svg id="icon-caret" viewBox="0 0 24 24">
+                  <title>
+                    caret
+                  </title>
+                  <polygon points="15.7,16.6 11.1,12 15.7,7.4 14.3,6 8.3,12 14.3,18">                    
+                  </polygon>
+                </svg>
+              </use>
+            </svg>
+          </button>
+          <!-- DIVISION EN COLONNE DE L'ONGLET MAMOUTH-->
           <div class="row" style="display: -webkit-inline-box;">
+            <!-- COLONNE 1 -->
             <div class="column">
               <p class="right">À PROPOS DE NOUS<br></p>
               <p class="right">Qui sommes nous ?<br></p>
@@ -117,13 +103,16 @@
                 L'équipe Mamouth.
               </p>
             </div>
+            <!-- COLONNE 2 -->
             <div class="column">
               <img src="img/IT2.png" alt="" class="right" style="width:95%;">
             </div>
           </div>
+          <!-- FOOTER -->
           <footer>
             <nav class="demos" style="margin-right:25px ">
               <div class="social-container" style="height: -webkit-fill-available;">
+                <!-- BARRE ARTISTIQUE  à sortir du contenu pour utiliser le meme footer sur toutes les pages -->
                 <div class="social-bar-container" style="height: -webkit-fill-available;background-color: white;position: absolute;">
                   <div class="social-bar" style="height: -webkit-fill-available;">
                   </div>
@@ -136,6 +125,7 @@
           </footer>        
         </div>
       </li>
+      <!-- ONGLET PRINCIPAL -->
       <li class="active" style="" id="main">
         <div class="section-content" style="margin-bottom: 150px;">
           <div class="container" style="width: -webkit-fill-available;display: contents;">
@@ -152,6 +142,7 @@
             <button type="">nos competences</button>
           </div>
         </div>
+        <!-- FOOTER -->
         <div>  
           <footer style="bottom:30px;">
             <nav class="demos">
@@ -169,6 +160,7 @@
         </div>
       </li>
     </ul>
+    <!-- JS APPARITION /!\UTILISATION DE JQUERY -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="js/index.js"></script>
   </body>

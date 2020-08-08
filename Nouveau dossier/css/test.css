@@ -243,12 +243,6 @@ li.active .section-title {
   width: 2px;
 }
 
-.jj{
-  background-color: blue;
-}
-
-
-
 
 
 
@@ -308,7 +302,7 @@ div {
         border: 1px solid $white;
       }
     }
-    &:after,
+    &:after, 
     &:before {
       content: "";
       width: 1px;
@@ -462,16 +456,6 @@ button {
     background-position: 400px 0;
   }
 }
-.x{
-
-  border: 1px solid orange;
-  color: orange;
-}
-
-
-
-
-
 
 a {
   float: right; 
@@ -570,15 +554,6 @@ img {
 float:right;
 }
 
-.vald{
-display: flex;
-position: static;
-float: left;
-place-self:baseline;
-}
-
-
-
 .centre{
   text-align:center;
 
@@ -614,7 +589,29 @@ p{
   color: #1d48f3;
 }
 
-.carret{
-  z-index:6;
+.container {
+  
+  position: relative;
 
 }
+.topright {
+  position: absolute;
+  top: 5px;
+  right: 16px;
+  font-size: 18px;
+}
+.pright {
+  position: absolute;
+  right: 16px;
+  font-size: 18px;
+
+} 
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-top: 20px;
+  height:100px;
+} 
+
+

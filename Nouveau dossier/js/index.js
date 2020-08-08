@@ -15,7 +15,7 @@ function toggleAccordion() {
   $(this).parent().addClass('active');
   mach = document.getElementById("main");
   console.log($(this));
-  mach.setAttribute("style", 'display:none');
+  mach.setAttribute("style", 'visibility:hidden');
   console.log("CLICK SUR LE CONTENT");
 }
 
@@ -31,7 +31,7 @@ function machf() {
     {
       event.cancelBubble = true;
     }
-    mach.setAttribute("style", 'display:true');
+    mach.setAttribute("style", 'visibility:visible');
 
   section.removeClass('active');
   section.focus();
